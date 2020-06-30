@@ -1,7 +1,7 @@
 :root {
     font-size: 20px;
     --color-white:rgb(254, 252, 252);
-    --coolr-peach:rgb(255, 230, 200);
+    --color-peach:rgb(255, 230, 200);
     --color-gray:rgb(79, 78, 78); 
 
 }
@@ -25,7 +25,7 @@ header {
     font-style: italic;
     font-weight: lighter;
     text-shadow: 1px 1px 1px var(--color-gray);
-  }
+}
 
 /***** FORM *****/
 #survey-form {
@@ -33,5 +33,44 @@ header {
     border-radius: 8px;
     color: var(--color-gray);
     margin: 50px 300px;
-    padding: 40px 40px;
+    padding: 20px 40px;
+}
+
+/***** FORM-Name, Email, Age *****/
+p,
+#name-label, 
+#email-label, 
+#number-label {
+    display: block;
+    margin: 25px 0 5px 0;
+} 
+
+#name,
+#email,
+#number, 
+#dropdown {
+    display: block;
+    width: 100%;
+    padding: 10px 10px;
+    color: var(--color-gray);
+    border: 0.5px solid var(--color-peach);
+    border-radius: 8px;
+}
+
+#name:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+#email:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+#number:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+  
+#dropdown:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
 }
