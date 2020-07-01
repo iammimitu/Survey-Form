@@ -33,7 +33,7 @@ header {
     border-radius: 8px;
     color: var(--color-gray);
     margin: 50px 300px;
-    padding: 20px 40px;
+    padding: 20px 40px 40px 40px;
 }
 
 /***** FORM-Name, Email, Age *****/
@@ -47,7 +47,15 @@ p,
 
 #name,
 #email,
-#number, 
+#number {
+    display: block;
+    width: 97%;
+    padding: 10px 10px;
+    color: var(--color-gray);
+    border: 0.5px solid var(--color-peach);
+    border-radius: 8px;
+}
+
 #dropdown {
     display: block;
     width: 100%;
@@ -90,7 +98,18 @@ label {
 textarea {
     border-radius: 8px;
     height: 120px;
-    width: 100%; 
-    padding: 10px 10px; 
+    width: 97%; 
+    padding: 10px 10px;
     resize: vertical;
+}
+
+#submit {
+    display: block; 
+    width: 100%;
+    padding: 8px;
+    background: var(--color-peach);
+    color: var(--color-gray);
+    border-radius: 8px;
+    border: 0.5px solid var(--color-gray);
+    cursor: pointer;
 }
