@@ -86,3 +86,11 @@ label {
     height: 20px;
     width: 20px;
 }
+
+textarea {
+    border-radius: 8px;
+    height: 120px;
+    width: 100%; 
+    padding: 10px 10px; 
+    resize: vertical;
+}
