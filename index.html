@@ -35,22 +35,15 @@
         </select>
         <!--Recommendation-->
         <p>Would you recommend us to a friend?</p>
-        <input type="radio" name="recommend" id="yes" checked>
-        <label for="yes">Yes</label>
-        <input type="radio" name="recommend" id="maybe">
-        <label for="maybe">Maybe</label>
-        <input type="radio" name="recommend" id="no">
-        <label for="no">No</label>
+        <label for="yes"><input type="radio" name="recommend" id="yes" checked> Yes</label>
+        <label for="maybe"><input type="radio" name="recommend" id="maybe"> Maybe</label>
+        <label for="no"><input type="radio" name="recommend" id="no"> No</label>
         <!--More-->
         <p>What content would you like to see more?<span class="clue">(Select all that apply)</span></p>
-        <input type="checkbox" name="moreContent" id="comfortFood" value="comfortFood">
-        <label for="comfortFood" >Comfort Food</label>
-        <input type="checkbox" name="moreContent" id="HealthyFood" value="healthyFood">
-        <label for="healthyFood">Healthy Food</label>
-        <input type="checkbox" name="mealPrep" id="mealPrep" value="mealPrep">
-        <label for="mealPrep">Meal Prep</label>
-        <input type="checkbox" name="special" id="special" value="special">
-        <label for="specificNeeds">Specific-need Meals</label>
+        <label for="comfortFood" ><input type="checkbox" name="moreContent" id="comfortFood" value="comfortFood" class="checkbox"> Comfort Food</label>
+        <label for="healthyFood"><input type="checkbox" name="moreContent" id="HealthyFood" value="healthyFood" class="checkbox"> Healthy Food</label>
+        <label for="mealPrep"><input type="checkbox" name="mealPrep" id="mealPrep" value="mealPrep" class="checkbox"> Meal Prep</label>
+        <label for="specificNeeds"><input type="checkbox" name="special" id="special" value="special" class="checkbox"> Specific-diet Meals</label>
         <!--Comment-->
         <p>Any suggestions or comments?</p>
         <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Enter your comment here..."></textarea>
