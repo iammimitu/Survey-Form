@@ -118,6 +118,7 @@ textarea {
     cursor: pointer;
 }
 
+
 @media (max-width:1150px) {
     #survey-form {
         margin: 50px 200px;
@@ -126,8 +127,12 @@ textarea {
 }
 
 @media (max-width:900px) {
+    header {
+        font-size:18px ;
+    }
     #survey-form {
         margin: 50px 35px;
         padding: 20px 40px 40px 40px;
     }
 }
+
