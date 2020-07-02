@@ -34,28 +34,13 @@ header {
     padding: 20px 40px 40px 40px;
 }
 
-p,
-#name-label, 
-#email-label, 
-#number-label {
-    display: block;
-    margin: 25px 0 5px 0;
-} 
 
+/*INPUT-NAME, EMAIL, AGE*/
 #name,
 #email,
 #number {
     display: block;
     width: 97%;
-    padding: 10px 10px;
-    color: var(--color-gray);
-    border: 0.5px solid var(--color-peach);
-    border-radius: 8px;
-}
-
-#dropdown {
-    display: block;
-    width: 100%;
     padding: 10px 10px;
     color: var(--color-gray);
     border: 0.5px solid var(--color-peach);
@@ -74,17 +59,23 @@ p,
     outline: 0;
     box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25);
 }
+
+/*INPUT-OCCUPATION*/
+#dropdown {
+    display: block;
+    width: 100%;
+    padding: 10px 10px;
+    color: var(--color-gray);
+    border: 0.5px solid var(--color-peach);
+    border-radius: 8px;
+}
   
 #dropdown:focus {
     outline: 0;
     box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25);
 }
 
-label {
-    display: block;
-    margin-bottom:8px ;
-}
-
+/*INPUT-RECOMMENDATION, MORE*/
 .label-input {
     display: inline-block;
     margin-right: 10px;
@@ -92,11 +83,22 @@ label {
     width: 20px;
 }
 
+/*LABEL*/
+p {
+    margin-bottom: 5px;
+}
+
+label {
+    display: block;
+    margin: 5px 0 5px 0;
+}
+
 .clue {
     font-size: 15px;
     color: var(--color-gray);
   }
 
+/*INPUT-COMMENT*/
 textarea {
     border-radius: 8px;
     height: 120px;
